@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Log Cabin+",
+    "icon": {
+      "value": "CUSTOM:RoundOakLog"
+    },
+    "showSearch": true
+  }
+}

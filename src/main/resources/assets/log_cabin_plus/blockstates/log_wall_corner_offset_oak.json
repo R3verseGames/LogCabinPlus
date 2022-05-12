@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "log_cabin_plus:block/log_wall_corner_offset_oak"
+    },
+    "facing=east": {
+      "model": "log_cabin_plus:block/log_wall_corner_offset_oak",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "log_cabin_plus:block/log_wall_corner_offset_oak",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "log_cabin_plus:block/log_wall_corner_offset_oak",
+      "y": 270
+    }
+  }
+}

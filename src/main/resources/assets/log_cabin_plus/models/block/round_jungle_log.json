@@ -1,0 +1,9 @@
+{
+  "parent": "log_cabin_plus:custom/roundlogjungle",
+  "textures": {
+    "all": "log_cabin_plus:blocks/stripped_jungle_log_top",
+    "particle": "log_cabin_plus:blocks/stripped_jungle_log_top",
+    "0": "log_cabin_plus:blocks/stripped_jungle_log",
+    "1": "log_cabin_plus:blocks/stripped_jungle_log_top"
+  }
+}

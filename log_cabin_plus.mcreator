@@ -1,0 +1,131 @@
+{
+  "mod_elements": [
+    {
+      "name": "RoundOakLog",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "round_oak_log"
+    },
+    {
+      "name": "LogCabinPlusTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_cabin_plus_tab"
+    },
+    {
+      "name": "RoundDarkOakLog",
+      "type": "block",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "round_dark_oak_log"
+    },
+    {
+      "name": "RoundBirchLog",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "round_birch_log"
+    },
+    {
+      "name": "RoundSpruceLog",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "round_spruce_log"
+    },
+    {
+      "name": "RoundJungleLog",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "round_jungle_log"
+    },
+    {
+      "name": "RoundAcaciaLog",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "round_acacia_log"
+    },
+    {
+      "name": "RoundWarpedLog",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "round_warped_log"
+    },
+    {
+      "name": "RoundCrimsonLog",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "round_crimson_log"
+    },
+    {
+      "name": "LogWallOak",
+      "type": "block",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_wall_oak"
+    },
+    {
+      "name": "LogWallCornerOffsetOak",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "log_wall_corner_offset_oak"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.log_cabin_plus.round_warped_log": "Round Warped Log",
+      "block.log_cabin_plus.round_oak_log": "Round Oak Log",
+      "itemGroup.tablog_cabin_plus_tab": "Log Cabin+",
+      "block.log_cabin_plus.round_spruce_log": "Round Spruce Log",
+      "block.log_cabin_plus.round_jungle_log": "Round Jungle Log",
+      "block.log_cabin_plus.round_dark_oak_log": "Round Dark Oak Log",
+      "block.log_cabin_plus.round_acacia_log": "Round AcaciaLog",
+      "block.log_cabin_plus.log_wall_oak": "Log Wall Oak",
+      "block.log_cabin_plus.round_crimson_log": "Round Crimson Log",
+      "block.log_cabin_plus.round_birch_log": "Round Birch Log",
+      "block.log_cabin_plus.log_wall_corner_offset_oak": "Log Wall Oak"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "log_cabin_plus",
+    "modName": "Log Cabin +",
+    "version": "1.0.0",
+    "author": "r3versegames, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.logcabinplus",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200119518
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "log_cabin_plus:custom/logwallstraightoak",
+  "textures": {
+    "all": "log_cabin_plus:blocks/stripped_oak_log_top",
+    "particle": "log_cabin_plus:blocks/stripped_oak_log_top",
+    "0": "log_cabin_plus:blocks/stripped_oak_log_top",
+    "1": "log_cabin_plus:blocks/stripped_oak_log"
+  }
+}

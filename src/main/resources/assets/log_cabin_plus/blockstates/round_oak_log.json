@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "log_cabin_plus:block/round_oak_log",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "log_cabin_plus:block/round_oak_log"
+    },
+    "axis=z": {
+      "model": "log_cabin_plus:block/round_oak_log",
+      "x": 90
+    }
+  }
+}

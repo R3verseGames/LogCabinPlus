@@ -1,0 +1,9 @@
+{
+  "parent": "log_cabin_plus:custom/roundlogcrimson",
+  "textures": {
+    "all": "log_cabin_plus:blocks/stripped_crimson_stem_top",
+    "particle": "log_cabin_plus:blocks/stripped_crimson_stem_top",
+    "0": "log_cabin_plus:blocks/stripped_crimson_stem",
+    "1": "log_cabin_plus:blocks/stripped_crimson_stem_top"
+  }
+}

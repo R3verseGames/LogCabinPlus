@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "log_cabin_plus:round_oak_log",
+    "log_cabin_plus:round_dark_oak_log",
+    "log_cabin_plus:round_birch_log",
+    "log_cabin_plus:round_spruce_log",
+    "log_cabin_plus:round_jungle_log",
+    "log_cabin_plus:round_acacia_log",
+    "log_cabin_plus:round_warped_log",
+    "log_cabin_plus:round_crimson_log",
+    "log_cabin_plus:log_wall_oak",
+    "log_cabin_plus:log_wall_corner_offset_oak"
+  ]
+}

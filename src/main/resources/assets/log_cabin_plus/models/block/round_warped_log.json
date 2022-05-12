@@ -1,0 +1,9 @@
+{
+  "parent": "log_cabin_plus:custom/roundlogwarped",
+  "textures": {
+    "all": "log_cabin_plus:blocks/stripped_warped_stem_top",
+    "particle": "log_cabin_plus:blocks/stripped_warped_stem_top",
+    "0": "log_cabin_plus:blocks/stripped_warped_stem",
+    "1": "log_cabin_plus:blocks/stripped_warped_stem_top"
+  }
+}
