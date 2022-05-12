@@ -35,6 +35,30 @@ public class LogCabinPlusModItems {
 	public static final RegistryObject<Item> LOG_WALL_OAK = block(LogCabinPlusModBlocks.LOG_WALL_OAK, LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
 	public static final RegistryObject<Item> LOG_WALL_CORNER_OFFSET_OAK = block(LogCabinPlusModBlocks.LOG_WALL_CORNER_OFFSET_OAK,
 			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_OAK_CENTER_CLOSED = block(LogCabinPlusModBlocks.WINDOW_OAK_CENTER_CLOSED,
+			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_OAK_CENTER_X = block(LogCabinPlusModBlocks.WINDOW_OAK_CENTER_X,
+			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_OAK_TOP = block(LogCabinPlusModBlocks.WINDOW_OAK_TOP, LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_OAK_BOTTOM = block(LogCabinPlusModBlocks.WINDOW_OAK_BOTTOM,
+			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_OAK_RIGHT = block(LogCabinPlusModBlocks.WINDOW_OAK_RIGHT,
+			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_T_BOTTOM = block(LogCabinPlusModBlocks.WINDOW_T_BOTTOM,
+			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_T_TOP = block(LogCabinPlusModBlocks.WINDOW_T_TOP, LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_OAK_LARGE_TOP_RIGHT = block(LogCabinPlusModBlocks.WINDOW_OAK_LARGE_TOP_RIGHT,
+			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_OAK_LARGE_BOTTOM_RIGHT = block(LogCabinPlusModBlocks.WINDOW_OAK_LARGE_BOTTOM_RIGHT,
+			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_OAK_LARGE_CENTER = block(LogCabinPlusModBlocks.WINDOW_OAK_LARGE_CENTER,
+			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_OAK_LARGE_TOP_CENTER = block(LogCabinPlusModBlocks.WINDOW_OAK_LARGE_TOP_CENTER,
+			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_OAK_LARGE_BOTTOM_CENTER = block(LogCabinPlusModBlocks.WINDOW_OAK_LARGE_BOTTOM_CENTER,
+			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
+	public static final RegistryObject<Item> WINDOW_OAK_LARGE_RIGHT_CENTER = block(LogCabinPlusModBlocks.WINDOW_OAK_LARGE_RIGHT_CENTER,
+			LogCabinPlusModTabs.TAB_LOG_CABIN_PLUS_TAB);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

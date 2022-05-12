@@ -87,28 +87,163 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "log_wall_corner_offset_oak"
+    },
+    {
+      "name": "WindowOakCenterClosed",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_oak_center_closed",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowOakCenterX",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_oak_center_x",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowOakTop",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_oak_top",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowOakBottom",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_oak_bottom",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowOakRight",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_oak_right",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowTBottom",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_t_bottom",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowTTop",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_t_top",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowOakLargeTopRight",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_oak_large_top_right",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowOakLargeBottomRight",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_oak_large_bottom_right",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowOakLargeCenter",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_oak_large_center",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowOakLargeTopCenter",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_oak_large_top_center",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowOakLargeBottomCenter",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_oak_large_bottom_center",
+      "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowOakLargeRightCenter",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_oak_large_right_center",
+      "path": "~/WindowOak"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.log_cabin_plus.round_warped_log": "Round Warped Log",
-      "block.log_cabin_plus.round_oak_log": "Round Oak Log",
-      "itemGroup.tablog_cabin_plus_tab": "Log Cabin+",
-      "block.log_cabin_plus.round_spruce_log": "Round Spruce Log",
-      "block.log_cabin_plus.round_jungle_log": "Round Jungle Log",
+      "block.log_cabin_plus.window_oak_large_bottom_right": "Window_Oak_Large_Bottom_Right",
       "block.log_cabin_plus.round_dark_oak_log": "Round Dark Oak Log",
+      "block.log_cabin_plus.window_oak_bottom": "W_O_B",
+      "block.log_cabin_plus.window_oak_large_bottom_center": "Window_Oak_Large_Bottom_Center",
+      "block.log_cabin_plus.round_warped_log": "Round Warped Log",
+      "block.log_cabin_plus.window_oak_right": "W_O_R",
       "block.log_cabin_plus.round_acacia_log": "Round AcaciaLog",
-      "block.log_cabin_plus.log_wall_oak": "Log Wall Oak",
-      "block.log_cabin_plus.round_crimson_log": "Round Crimson Log",
       "block.log_cabin_plus.round_birch_log": "Round Birch Log",
-      "block.log_cabin_plus.log_wall_corner_offset_oak": "Log Wall Oak"
+      "block.log_cabin_plus.round_oak_log": "Round Oak Log",
+      "block.log_cabin_plus.window_oak_large_top_center": "Window_Oak_Large_Top_Center",
+      "block.log_cabin_plus.round_jungle_log": "Round Jungle Log",
+      "block.log_cabin_plus.window_oak_large_top_right": "Window_Oak_Large_Top_Right",
+      "block.log_cabin_plus.window_t_top": "W_T_TLR",
+      "block.log_cabin_plus.window_t_bottom": "W_T_BLR",
+      "block.log_cabin_plus.round_crimson_log": "Round Crimson Log",
+      "block.log_cabin_plus.window_oak_center_x": "W_O_C_X",
+      "block.log_cabin_plus.log_wall_corner_offset_oak": "Log Wall Oak",
+      "block.log_cabin_plus.window_oak_top": "W_O_T",
+      "itemGroup.tablog_cabin_plus_tab": "Log Cabin+",
+      "block.log_cabin_plus.window_oak_large_center": "Window_Oak_Large_Center",
+      "block.log_cabin_plus.round_spruce_log": "Round Spruce Log",
+      "block.log_cabin_plus.log_wall_oak": "Log Wall Oak",
+      "block.log_cabin_plus.window_oak_center_closed": "Oak Window",
+      "block.log_cabin_plus.window_oak_large_right_center": "Window_Oak_Large_Right_Center"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "WindowOak",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "log_cabin_plus",

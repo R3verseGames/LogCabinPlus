@@ -14,6 +14,19 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.logcabinplus.block.WindowTTopBlock;
+import net.mcreator.logcabinplus.block.WindowTBottomBlock;
+import net.mcreator.logcabinplus.block.WindowOakTopBlock;
+import net.mcreator.logcabinplus.block.WindowOakRightBlock;
+import net.mcreator.logcabinplus.block.WindowOakLargeTopRightBlock;
+import net.mcreator.logcabinplus.block.WindowOakLargeTopCenterBlock;
+import net.mcreator.logcabinplus.block.WindowOakLargeRightCenterBlock;
+import net.mcreator.logcabinplus.block.WindowOakLargeCenterBlock;
+import net.mcreator.logcabinplus.block.WindowOakLargeBottomRightBlock;
+import net.mcreator.logcabinplus.block.WindowOakLargeBottomCenterBlock;
+import net.mcreator.logcabinplus.block.WindowOakCenterXBlock;
+import net.mcreator.logcabinplus.block.WindowOakCenterClosedBlock;
+import net.mcreator.logcabinplus.block.WindowOakBottomBlock;
 import net.mcreator.logcabinplus.block.RoundWarpedLogBlock;
 import net.mcreator.logcabinplus.block.RoundSpruceLogBlock;
 import net.mcreator.logcabinplus.block.RoundOakLogBlock;
@@ -39,6 +52,26 @@ public class LogCabinPlusModBlocks {
 	public static final RegistryObject<Block> LOG_WALL_OAK = REGISTRY.register("log_wall_oak", () -> new LogWallOakBlock());
 	public static final RegistryObject<Block> LOG_WALL_CORNER_OFFSET_OAK = REGISTRY.register("log_wall_corner_offset_oak",
 			() -> new LogWallCornerOffsetOakBlock());
+	public static final RegistryObject<Block> WINDOW_OAK_CENTER_CLOSED = REGISTRY.register("window_oak_center_closed",
+			() -> new WindowOakCenterClosedBlock());
+	public static final RegistryObject<Block> WINDOW_OAK_CENTER_X = REGISTRY.register("window_oak_center_x", () -> new WindowOakCenterXBlock());
+	public static final RegistryObject<Block> WINDOW_OAK_TOP = REGISTRY.register("window_oak_top", () -> new WindowOakTopBlock());
+	public static final RegistryObject<Block> WINDOW_OAK_BOTTOM = REGISTRY.register("window_oak_bottom", () -> new WindowOakBottomBlock());
+	public static final RegistryObject<Block> WINDOW_OAK_RIGHT = REGISTRY.register("window_oak_right", () -> new WindowOakRightBlock());
+	public static final RegistryObject<Block> WINDOW_T_BOTTOM = REGISTRY.register("window_t_bottom", () -> new WindowTBottomBlock());
+	public static final RegistryObject<Block> WINDOW_T_TOP = REGISTRY.register("window_t_top", () -> new WindowTTopBlock());
+	public static final RegistryObject<Block> WINDOW_OAK_LARGE_TOP_RIGHT = REGISTRY.register("window_oak_large_top_right",
+			() -> new WindowOakLargeTopRightBlock());
+	public static final RegistryObject<Block> WINDOW_OAK_LARGE_BOTTOM_RIGHT = REGISTRY.register("window_oak_large_bottom_right",
+			() -> new WindowOakLargeBottomRightBlock());
+	public static final RegistryObject<Block> WINDOW_OAK_LARGE_CENTER = REGISTRY.register("window_oak_large_center",
+			() -> new WindowOakLargeCenterBlock());
+	public static final RegistryObject<Block> WINDOW_OAK_LARGE_TOP_CENTER = REGISTRY.register("window_oak_large_top_center",
+			() -> new WindowOakLargeTopCenterBlock());
+	public static final RegistryObject<Block> WINDOW_OAK_LARGE_BOTTOM_CENTER = REGISTRY.register("window_oak_large_bottom_center",
+			() -> new WindowOakLargeBottomCenterBlock());
+	public static final RegistryObject<Block> WINDOW_OAK_LARGE_RIGHT_CENTER = REGISTRY.register("window_oak_large_right_center",
+			() -> new WindowOakLargeRightCenterBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -54,6 +87,19 @@ public class LogCabinPlusModBlocks {
 			RoundCrimsonLogBlock.registerRenderLayer();
 			LogWallOakBlock.registerRenderLayer();
 			LogWallCornerOffsetOakBlock.registerRenderLayer();
+			WindowOakCenterClosedBlock.registerRenderLayer();
+			WindowOakCenterXBlock.registerRenderLayer();
+			WindowOakTopBlock.registerRenderLayer();
+			WindowOakBottomBlock.registerRenderLayer();
+			WindowOakRightBlock.registerRenderLayer();
+			WindowTBottomBlock.registerRenderLayer();
+			WindowTTopBlock.registerRenderLayer();
+			WindowOakLargeTopRightBlock.registerRenderLayer();
+			WindowOakLargeBottomRightBlock.registerRenderLayer();
+			WindowOakLargeCenterBlock.registerRenderLayer();
+			WindowOakLargeTopCenterBlock.registerRenderLayer();
+			WindowOakLargeBottomCenterBlock.registerRenderLayer();
+			WindowOakLargeRightCenterBlock.registerRenderLayer();
 		}
 	}
 }

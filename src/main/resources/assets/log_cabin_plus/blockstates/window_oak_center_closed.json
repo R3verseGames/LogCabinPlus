@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "log_cabin_plus:block/window_oak_center_closed"
+    },
+    "facing=east": {
+      "model": "log_cabin_plus:block/window_oak_center_closed",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "log_cabin_plus:block/window_oak_center_closed",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "log_cabin_plus:block/window_oak_center_closed",
+      "y": 270
+    }
+  }
+}

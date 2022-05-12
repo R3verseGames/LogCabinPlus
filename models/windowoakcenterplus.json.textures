@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "stripped_oak_log",
+        "2": "glasstexture"
+      },
+      "name": "default"
+    }
+  }
+}

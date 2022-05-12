@@ -1,0 +1,8 @@
+{
+  "parent": "log_cabin_plus:custom/windowoaklargecenter",
+  "textures": {
+    "all": "log_cabin_plus:blocks/glasstexture",
+    "particle": "log_cabin_plus:blocks/glasstexture",
+    "2": "log_cabin_plus:blocks/glasstexture"
+  }
+}
