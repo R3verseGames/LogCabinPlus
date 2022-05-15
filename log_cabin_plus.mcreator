@@ -204,6 +204,35 @@
       "locked_code": false,
       "registry_name": "window_oak_large_right_center",
       "path": "~/WindowOak"
+    },
+    {
+      "name": "WindowNeighbourBlockChanges",
+      "type": "procedure",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "window_neighbour_block_changes",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/WindowOak"
     }
   ],
   "variable_elements": [],
